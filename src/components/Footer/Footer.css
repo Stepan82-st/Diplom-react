@@ -1,0 +1,13 @@
+.footer {
+    padding: 20px;
+    grid-area: f;
+    background-color: #F18B0D;
+    min-height:150px;
+    color: blue;
+}
+.item1{
+    font-size: 30px;
+}
+.item2{
+    text-align: center;
+}

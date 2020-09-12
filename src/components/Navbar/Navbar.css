@@ -1,0 +1,18 @@
+.nav {
+    width: 2fr;
+    height: 500px;
+    grid-area: n;
+    background-color: grey;
+}
+.buttons {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    background-color: darkgray;
+    width: 300px;
+    min-height: 50px;
+    border-bottom: #61dafb;
+    text-align: center;
+    color: blue;
+    font-family: "'Segoe UI'";
+    font-size: 24px;
+}
