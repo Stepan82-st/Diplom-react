@@ -7,60 +7,14 @@
   margin: 0 auto;
   grid-template-areas: "h h"
   "s n" "f f";
+  grid-area: s;
 grid-template-rows: 60px 1fr;
 grid-template-columns: 5fr 1fr;
 /*grid-gap: 10px*/}
 
-.header{
-  grid-area: h;
-background-color: #F18B0D;
-}
-.item {
-  padding: 20px;
-  color: aqua;
-  font-size: 40px;
 
-}
-.nav {
-  width: 2fr;
-  height: 500px;
-  grid-area: n;
-   background-color: grey;
-}
-.buttons {
-  margin-bottom: 5px;
-  padding-bottom: 5px;
-  background-color: darkgray;
-  width: 300px;
-  min-height: 50px;
-  border-bottom: #61dafb;
-  text-align: center;
-  color: blue;
-  font-family: "sans-serif";
-  font-size: 24px;
-}
-.sidebar{
-  grid-area: s;
-  display: grid;
-  background-image:url('./img/Dom.bmp');
-  min-width: 300px;
-  min-height: 300px;
-  max-width: 1000px;
-  max-height: 500px;
-}
-.footer {
-  padding: 20px;
-  grid-area: f;
-  background-color: #F18B0D;
-  min-height:150px;
-  color: blue;
-}
-.item1{
-  font-size: 30px;
-}
-.item2{
-  text-align: center;
-}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
