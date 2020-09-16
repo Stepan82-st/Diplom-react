@@ -1,0 +1,15 @@
+.dialogs{
+    padding: 10px;
+    background-color: aliceblue;
+    min-width: 300px;
+    min-height: 500px;
+    max-width: 1000px;
+    max-height: 1300px;
+    grid-area: s;
+}
+.item_item_dialogs{
+    min-width: 200px;
+    max-width: 400px;
+    min-height: 100px;
+    max-height: 300px;
+}

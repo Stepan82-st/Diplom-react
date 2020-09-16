@@ -1,9 +1,11 @@
 import React from 'react';
 import './Sidebar.css';
+import MyPosts from './Mypost/MyPosts';
+
 function Sidebar() {
     return (<div className={'sidebar'}>
-        <h1 className={'item'}> Sadovay ferma </h1>
-        <div></div>
+
+        <MyPosts />
     </div>);
 }
 export default Sidebar;

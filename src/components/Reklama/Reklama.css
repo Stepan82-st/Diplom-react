@@ -1,0 +1,45 @@
+.reklama{
+    display: grid;
+    background-color: darkgray;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: auto;
+    grid-template-areas:
+    'm m m'
+    'k k i';
+    color: white;
+    min-width: 300px;
+    min-height: 500px;
+    max-width: 1000px;
+    max-height: 1300px;
+    overflow: auto;
+
+}
+.button_item {
+    position: relative;
+    text-decoration: none;
+    min-width: 100px;
+    color: yellow;
+    padding: 10px;
+    top: 10px;
+
+}
+.head{
+    grid-area: m;
+}
+.content {
+    background-image: url('titanik.jpg');
+    background-repeat: no-repeat;
+    margin: 5px;
+    padding: 5px;
+    min-width: 400px;
+
+grid-area: k;
+}
+.content_item{
+    grid-area: i;
+    min-width: 500px;
+    font-size: 24px;
+    color: yellow;
+    text-align: right;
+    margin-left: 240px;
+}

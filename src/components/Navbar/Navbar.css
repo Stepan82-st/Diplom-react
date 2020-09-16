@@ -1,18 +1,27 @@
 .nav {
+    transform-origin: 50%50%;
+    box-shadow: 10px 10px 35px 5px #311;
     width: 2fr;
-    height: 500px;
+    min-height: 500px;
+    max-height: 1300px;
     grid-area: n;
-    background-color: grey;
+    background-color: darkgray;
+    text-decoration: none;
 }
 .buttons {
-    margin-bottom: 5px;
-    padding-bottom: 5px;
-    background-color: darkgray;
+    margin: 5px;
+    padding: 5px;
+    background-color: khaki;
     width: 300px;
     min-height: 50px;
     border-bottom: #61dafb;
     text-align: center;
-    color: blue;
-    font-family: "'Segoe UI'";
+    color: white;
+    font-family: 'Segoe UI';
     font-size: 24px;
+    border-radius: 50px;
+    font-weight: bold;
+    border-style: groove;
+    transform-origin: 50%50%;
+    box-shadow: 10px 10px 35px 5px #311;
 }

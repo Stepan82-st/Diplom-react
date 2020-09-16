@@ -1,9 +1,9 @@
 .footer {
     padding: 20px;
     grid-area: f;
-    background-color: #F18B0D;
-    min-height:150px;
-    color: blue;
+    background-color: darkslategrey;
+    min-height:100px;
+    color: aliceblue;
 }
 .item1{
     font-size: 30px;

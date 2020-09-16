@@ -1,0 +1,13 @@
+.nowsad{
+    padding: 10px;
+    background-color: aliceblue;
+    min-width: 300px;
+    min-height: 500px;
+    max-width: 1000px;
+    max-height: 1300px;
+    grid-area: s;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+

@@ -1,11 +1,11 @@
-.sidebar{
-    background-image: url('../../672006.JPG');
+
+.NewFerm{
+    background-image: url('f071.jpg');
     min-width: 300px;
     min-height: 500px;
     max-width: 1000px;
-    max-height: 1000px;
+    max-height: 1300px;
     grid-area: s;
     overflow: auto;
 }
-
 
