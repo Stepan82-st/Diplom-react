@@ -3,17 +3,23 @@
 }
 .app-wrapper{
   display: grid;
- max-width: 1200px;
+ max-width: 100%;
   margin: 0 auto;
   grid-template-areas: "h h"
   "s n" "f f";
-  grid-area: s;
-grid-template-rows: 60px 1fr;
-grid-template-columns: 5fr 1fr;
+
+grid-template-rows: 90px 1fr;
+grid-template-columns: 3fr 1fr;
 /*grid-gap: 10px*/}
 
+.app-wrapper-content{
+  background-image: url('672006.JPG');
+  min-width: 300px;
+  min-height: 500px;
+  max-width: 1000px;
+  max-height: 1300px;
 
-
+}
 
 .App-logo {
   height: 40vmin;

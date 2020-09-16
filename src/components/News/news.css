@@ -1,0 +1,45 @@
+.news{
+    padding: 10px;
+    background-color: aliceblue;
+    min-width: 300px;
+    min-height: 500px;
+    max-width: 1000px;
+    max-height: 1300px;
+    grid-area: s;
+}
+.post_main{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    width: 90%;
+    margin: 10px;
+    /* flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     */
+}
+.post__item{
+    max-width: 400px;
+
+}
+.post__image{
+    position: relative;
+    min-width: 100px;
+    max-width: 400px;
+    min-height: 70px;
+    vertical-align: middle;
+}
+.post__title{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #F18B0D;
+
+}
+.post__text{
+    margin-top: 5px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+

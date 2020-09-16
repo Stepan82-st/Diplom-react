@@ -1,4 +1,31 @@
 .header{
     grid-area: h;
-    background-color: #F18B0D;
+    background-color: darkgray;
+    overflow: hidden;
+
+}
+.header_post{
+    position: relative;
+    width: 10%;
+    float: left;
+
+}
+.header_post1{
+    float: right;
+    width: 90%;
+
+    text-align: center;
+    color: darkorange;
+    font-size: 20px;
+}
+.Login{
+    position: relative;
+    width: 90px;
+    height: 50px;
+    font-size: medium;
+    top:-80px;
+    left: 300px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: darkorange;
 }

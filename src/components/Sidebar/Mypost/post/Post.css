@@ -1,0 +1,11 @@
+
+.item {
+    padding: 20px;
+    color: blue;
+    font-size: 40px;
+}
+.item_3 {
+    display: grid;
+    min-width: 200px;
+    min-height: 150px;
+}
